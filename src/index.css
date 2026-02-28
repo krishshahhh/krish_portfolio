@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #262626;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+.app-container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+section {
+  padding: 80px 0;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+p {
+  font-size: 14px;
+  color: #d1d1d1;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    padding: 0 18px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 13px;
+  }
+
+  section {
+    padding: 60px 0;
+  }
+}

@@ -1,0 +1,36 @@
+body {
+  background-color: #0d1117;   /* terminal dark */
+  color: #e6edf3;
+  font-family: "Courier New", monospace;
+}
+
+.hero {
+  margin-top: 80px;
+  max-width: 650px;
+}
+
+.hero h1 {
+  font-size: 32px;
+  margin-bottom: 24px;
+}
+
+.hero p {
+  font-size: 15px;
+  line-height: 1.8;
+  margin-bottom: 18px;
+  color: #c9d1d9;
+}
+
+/* Terminal highlight colors */
+
+.green {
+  color: #00ff88;
+}
+
+.yellow {
+  color: #facc15;
+}
+
+.blue {
+  color: #38bdf8;
+}

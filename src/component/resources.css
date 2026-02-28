@@ -1,0 +1,44 @@
+.resources {
+  margin-top: 120px;
+}
+
+.resources h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+}
+
+.resource-card {
+  background-color: #2f2f2f;
+  padding: 26px;
+  border-radius: 12px;
+  transition: 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.resource-card:hover {
+  transform: translateY(-6px);
+  border-color: #FF7F11;
+  box-shadow: 0 0 20px rgba(255, 127, 17, 0.15);
+}
+
+.resource-card h4 {
+  margin: 16px 0 10px 0;
+  font-size: 16px;
+}
+
+.resource-card p {
+  font-size: 13px;
+  color: #cfcfcf;
+  line-height: 1.6;
+}
+
+.icon {
+  font-size: 30px;
+  color: #FF7F11;
+}

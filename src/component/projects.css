@@ -1,0 +1,42 @@
+.project-card {
+  background: #161b22;
+  padding: 28px;
+  border-radius: 14px;
+  border: 1px solid #30363d;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Smooth hover lift */
+.project-card:hover {
+  transform: translateY(-6px);
+  border-color: #00ff88;
+  box-shadow: 0 0 18px rgba(0, 255, 136, 0.15);
+}
+
+/* Icons container */
+.card-icons {
+  position: absolute;
+  bottom: 18px;
+  right: 18px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+/* Icon links */
+.card-icons a {
+  color: #8b949e;
+  font-size: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.25s ease, transform 0.25s ease;
+}
+
+/* Icon hover effect */
+.card-icons a:hover {
+  color: #00ff88;
+  transform: scale(1.15);
+}
